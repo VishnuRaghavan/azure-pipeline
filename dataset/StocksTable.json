@@ -1,0 +1,37 @@
+{
+	"name": "StocksTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OutputToSql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CompanyName",
+				"type": "varchar"
+			},
+			{
+				"name": "Industry",
+				"type": "varchar"
+			},
+			{
+				"name": "Symbol",
+				"type": "varchar"
+			},
+			{
+				"name": "Series",
+				"type": "varchar"
+			},
+			{
+				"name": "ISIN",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "STOCKS"
+		}
+	}
+}
