@@ -1,0 +1,9 @@
+{
+	"name": "d-facto-1",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3f842dc9-bc66-4255-9334-593d343bcb0a",
+		"tenantId": "1c9ce197-69e9-4c88-9cc9-fad69c921a14"
+	}
+}
